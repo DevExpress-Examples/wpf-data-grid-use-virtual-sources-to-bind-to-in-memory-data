@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfiniteSourceInMemoryData", "InfiniteSourceInMemoryData.csproj", "{8FF9BD0B-F10E-4437-A039-1FE38E169B59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FF9BD0B-F10E-4437-A039-1FE38E169B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF9BD0B-F10E-4437-A039-1FE38E169B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF9BD0B-F10E-4437-A039-1FE38E169B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF9BD0B-F10E-4437-A039-1FE38E169B59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BBBB49E-CAC9-4EBC-B287-107AB86A523F}
+	EndGlobalSection
+EndGlobal
