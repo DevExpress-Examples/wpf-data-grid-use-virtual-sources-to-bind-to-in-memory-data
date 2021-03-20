@@ -55,12 +55,12 @@ namespace InfiniteSourceInMemoryData {
             }
             return await Task.Run(() => {
                 var result = new List<IssueData>();
-                const int pageSize = 42;
-                while(enumerator.MoveNext() && result.Count < pageSize) {
+                int take = e.Take ?? 42;
+                while(result.Count < take && enumerator.MoveNext()) {
                     result.Add(enumerator.Current);
                 }
 
-                return new FetchRowsResult(result.ToArray(), hasMoreRows: result.Count == pageSize, nextSkipToken: enumerator);
+                return new FetchRowsResult(result.ToArray(), hasMoreRows: result.Count == take, nextSkipToken: enumerator);
             });
         }
 
