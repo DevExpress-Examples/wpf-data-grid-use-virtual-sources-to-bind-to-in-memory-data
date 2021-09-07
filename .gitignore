@@ -300,3 +300,8 @@ __pycache__/
 
 #ExampleRangeTester artifacts
 TesterMetadata.xml
+
+# ProjectUpdrade & TryConvert files
+*.csproj.old
+*.vbproj.old
+*.bak
