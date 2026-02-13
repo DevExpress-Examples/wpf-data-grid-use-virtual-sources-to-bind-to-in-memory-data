@@ -12,7 +12,7 @@ The GridControl only requests top records or a certain page, and you can specify
 
 **Topic**: [Binding to any Data Source with Virtual Sources](https://docs.devexpress.com/WPF/10803/controls-and-libraries/data-grid/binding-to-data/binding-to-any-data-source-with-virtual-sources)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-use-virtual-sources-to-bind-to-in-memory-data&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-use-virtual-sources-to-bind-to-in-memory-data&~~~was_helpful=no)
 
